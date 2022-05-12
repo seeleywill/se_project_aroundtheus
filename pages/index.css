@@ -1,6 +1,6 @@
 .page {
   width: 880px;
-  height: 1098px;
+  height: 1112px;
   display: flex;
   flex-direction: column;
   padding: 45px 200px 60px;
@@ -9,14 +9,12 @@
 
 .header {
   height: 74px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .header__logo {
   width: 173px;
   height: 33px;
+  margin: 0px 0px 41px;
 }
 
 .header__line {
@@ -45,6 +43,7 @@
   flex-direction: column;
   margin: auto 30px;
   flex-grow: 2;
+  height: 77px;
 }
 
 .profile__profile-info_name {
@@ -110,6 +109,10 @@
 
 .cards {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 17px;
   width: 880px;
   height: 744px;
 }
@@ -128,7 +131,7 @@
 }
 
 .card__label {
-  padding: 0px 15px 0px 21px;
+  margin: 25px 15px 25px 21px;
   display: flex;
   justify-content: space-between;
 }
@@ -143,6 +146,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  margin: 0px;
 }
 
 .footer {
@@ -154,4 +158,8 @@
   font-size: 18px;
   line-height: 1.22;
   margin: 67px 0px 0px 0px;
+}
+
+.footer__text {
+  margin: 0px;
 }
