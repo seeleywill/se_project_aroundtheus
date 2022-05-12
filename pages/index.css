@@ -12,7 +12,16 @@
   left: 200px;
   top: 45px;
   color: white;
-  border-bottom: 1px solid #545454;
+}
+
+.header__line {
+  position: absolute;
+  width: 880px;
+  height: 0px;
+  left: 200px;
+  top: 119px;
+  opacity: 0.7;
+  border: 1px solid #545454;
 }
 
 .profile {
@@ -31,6 +40,23 @@
   top: 159px;
 }
 
+.profile__avatar_image {
+  position: absolute;
+  width: 168.75px;
+  height: 127.5px;
+  left: 177.5px;
+  top: 155.25px;
+}
+
+.profile__avatar_ellipse {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 200px;
+  top: 159px;
+  background: #c4c4c4;
+}
+
 .profile__profile-info {
   position: absolute;
   width: 415px;
@@ -39,12 +65,98 @@
   top: 181px;
 }
 
-.elements {
+.edit-button {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 741px;
+  top: 196px;
+}
+
+.profile__profile-info_name {
+  position: absolute;
+  width: 373px;
+  height: 39px;
+  left: 350px;
+  top: 181px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+  color: white;
+}
+
+.profile__profile-info_title {
+  position: absolute;
+  width: 415px;
+  height: 22px;
+  left: 350px;
+  top: 236px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+
+.add-button {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 930px;
+  top: 194px;
+}
+
+.add-button__vector {
+  position: absolute;
+  height: 22px;
+  left: 77.66%;
+  right: 20.62%;
+  top: 208px;
+  background: white;
+}
+
+.add-button__rectangle {
+  box-sizing: border-box;
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 930px;
+  top: 194px;
+  border: 2px solid white;
+  border-radius: 2px;
+}
+
+.cards {
   position: absolute;
   width: 880px;
   height: 744px;
   left: 200px;
   top: 329px;
+}
+
+.card {
+  width: 282px;
+  height: 362px;
+  background: white;
+  border-radius: 10px;
+}
+
+.card__image {
+  width: 282px;
+  height: 282px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: black;
 }
 
 .footer {
