@@ -22,28 +22,42 @@
   <body>
     <div class="page">
       <header class="header">
-        <img class="header__title" />
+        <img class="header__logo" src="./images/Title-Vector.png" alt="Around the US"/>
         <div class="header__line"></div>
       </header>
       <section class="profile">
-        <div class="profile__avatar">
-          <img class="profile__avatar_image" />
-          <div class="profile__avatar_ellipse"></div>
-        </div>
+          <img
+            class="profile__avatar"
+            src="./images/jacques-cousteau.jpg"
+            alt="Photo of Jacques Cousteau"
+          />
         <div class="profile__profile-info">
-          <button class="edit-button"></button>
-          <h1 class="profile__profile-info_name">Jacques Cousteau</h1>
+          <div class="profile__profile-info_name">
+          <h1 class="profile__profile-info_name-text">Jacques Cousteau </h1>
+          <div class="edit-button"><img class="edit-button_icon" src="./images/edit-icon.png" alt="Edit icon"></div>
+        </div>
           <h2 class="profile__profile-info_title">Explorer</h2>
-          <button class="add-button">
-            <img class="add-button__vector" />
-            <div class="add-button__rectangle"></div>
-          </button>
+        </div>
+        <div class="add-button">
+          <img class="add-button__vector" src="./images/add-button-vector.png" alt="Add button"/>
         </div>
       </section>
       <section class="cards">
         <div class="card">
-          <img class="card__image" />
-          <h3 class="card__title"><button class="card__button"></button></h3>
+          <img
+            class="card__image"
+            src="./images/yosemite-valley.jpg"
+            alt="Photo of Yosemite Valley"
+          />
+          <div class="card__label">
+            <h3 class="card__label_text">Yosemite Valley</h3>
+              <img
+                class="like-button-image"
+                src="./images/Group.svg"
+                alt="Heart icon"
+              />
+            </button>
+          </div>
         </div>
       </section>
       <footer class="footer">
