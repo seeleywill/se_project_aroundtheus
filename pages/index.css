@@ -16,7 +16,6 @@
 
 .header__logo {
   margin: 0px 0px 41px;
-  max-width: 173px;
 }
 
 .header__line {
@@ -130,6 +129,7 @@
   row-gap: 20px;
   column-gap: 17px;
   justify-content: center;
+  align-items: center;
 }
 
 .card {
