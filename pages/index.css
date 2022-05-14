@@ -67,6 +67,10 @@
   background: black;
 }
 
+.edit-button:hover {
+  opacity: 0.6;
+}
+
 .edit-button_icon {
   margin: auto;
 }
@@ -88,6 +92,10 @@
   border-radius: 2px;
   margin: auto 0px;
   background: black;
+}
+
+.add-button:hover {
+  opacity: 0.6;
 }
 
 .add-button__vector {
@@ -149,6 +157,10 @@
   display: flex;
 }
 
+.card__label_button:hover {
+  opacity: 0.5;
+}
+
 .card__label_button-image {
   margin: auto;
 }
@@ -168,7 +180,7 @@
   margin: 0px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .page {
     padding: 28px 0px 36px;
   }
