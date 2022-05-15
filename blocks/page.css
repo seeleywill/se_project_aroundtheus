@@ -3,16 +3,6 @@
   src: url("../fonts/Inter-Regular.woff2");
 }
 
-@font-face {
-  font-family: "Inter";
-  src: url("../fonts/Inter-Medium.woff2");
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("../fonts/Inter-Black.woff2");
-}
-
 .meta {
   background-color: black;
 }
