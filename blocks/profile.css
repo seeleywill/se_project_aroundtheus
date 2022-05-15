@@ -48,7 +48,7 @@
   opacity: 0.6;
 }
 
-.profile__edit__vector {
+.profile__editbutton {
   margin: auto;
 }
 
@@ -78,7 +78,7 @@
   opacity: 0.6;
 }
 
-.profile__add__vector {
+.profile__addbutton {
   height: 22px;
   width: 22px;
 }
