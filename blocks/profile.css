@@ -48,7 +48,7 @@
   opacity: 0.6;
 }
 
-.profile__edit_vector {
+.profile__edit__vector {
   margin: auto;
 }
 
@@ -78,7 +78,7 @@
   opacity: 0.6;
 }
 
-.profile__add_vector {
+.profile__add__vector {
   height: 22px;
   width: 22px;
 }
