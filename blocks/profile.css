@@ -20,12 +20,12 @@
   flex-grow: 2;
 }
 
-.profile__profile-info_name {
+.profile__name {
   display: flex;
   margin-bottom: 16px;
 }
 
-.profile__profile-info_name-text {
+.profile__nametext {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -48,11 +48,11 @@
   opacity: 0.6;
 }
 
-.edit-button_icon {
+.edit-button__icon {
   margin: auto;
 }
 
-.profile__profile-info_title {
+.profile__title {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -109,15 +109,15 @@
     align-items: center;
   }
 
-  .profile__profile-info_name {
+  .profile__name {
     margin-bottom: 14px;
   }
 
-  .profile__profile-info_name-text {
+  .profile__nametext {
     font-size: 22px;
   }
 
-  .profile__profile-info_title {
+  .profile__title {
     margin-bottom: 36px;
     font-size: 14px;
   }

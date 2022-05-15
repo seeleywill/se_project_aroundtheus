@@ -33,7 +33,7 @@
   align-items: center;
 }
 
-.card__label_text {
+.card__text {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -46,16 +46,16 @@
   margin: 0px;
 }
 
-.card__label_button {
+.card__button {
   border: none;
   background: white;
   display: flex;
 }
 
-.card__label_button:hover {
+.card__button:hover {
   opacity: 0.5;
 }
 
-.card__label_button-image {
+.card__heart {
   margin: auto;
 }
