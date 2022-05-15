@@ -1,0 +1,14 @@
+.main {
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__cards {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 17px;
+  justify-content: center;
+  align-items: center;
+}
