@@ -11,6 +11,10 @@
   margin: 0px auto;
 }
 
+.page__footless {
+  min-height: calc(100vh - 70px);
+}
+
 @media screen and (max-width: 768px) {
   .page__content {
     padding: 28px 0px 36px;
