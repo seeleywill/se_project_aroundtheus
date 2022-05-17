@@ -111,6 +111,7 @@
 
   .profile__name {
     font-size: 22px;
+    max-width: 250px;
   }
 
   .profile__edit {
@@ -129,6 +130,7 @@
   .profile__description {
     margin-bottom: 36px;
     font-size: 14px;
+    max-width: 250px;
   }
 
   .profile__add {
