@@ -1,6 +1,5 @@
 .card {
   width: 282px;
-  height: 362px;
   background: white;
   border-radius: 10px;
 }
@@ -33,8 +32,9 @@
 
 .card__button {
   border: none;
-  background: white;
+  background: transparent;
   display: flex;
+  cursor: pointer;
 }
 
 .card__button:hover {

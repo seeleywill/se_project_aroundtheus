@@ -1,10 +1,10 @@
-.main {
+.gallery {
   margin: 0px auto;
   display: flex;
   flex-direction: column;
 }
 
-.main__cards {
+.gallery__cards {
   display: flex;
   flex-wrap: wrap;
   row-gap: 20px;

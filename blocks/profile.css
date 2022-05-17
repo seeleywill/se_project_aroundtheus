@@ -36,12 +36,14 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  max-width: 373px;
 }
 
 .profile__edit {
   border: 1px solid white;
   margin: auto 0px auto 18px;
-  background: black;
+  background: transparent;
+  cursor: pointer;
 }
 
 .profile__edit:hover {
@@ -63,6 +65,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  max-width: 415px;
 }
 
 .profile__add {
@@ -71,7 +74,8 @@
   border: 2px solid white;
   border-radius: 2px;
   margin: auto 0px;
-  background: black;
+  background: transparent;
+  cursor: pointer;
 }
 
 .profile__add:hover {
@@ -107,6 +111,19 @@
 
   .profile__name {
     font-size: 22px;
+  }
+
+  .profile__edit {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    padding: 0px 5.25px;
+  }
+
+  .profile__editbutton {
+    width: 7.5px;
+    height: 7.5px;
+    display: block;
   }
 
   .profile__description {
