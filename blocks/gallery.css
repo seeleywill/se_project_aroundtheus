@@ -9,6 +9,17 @@
   flex-wrap: wrap;
   row-gap: 20px;
   column-gap: 17px;
-  justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .gallery {
+    max-width: 581px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .gallery {
+    max-width: 282px;
+  }
 }

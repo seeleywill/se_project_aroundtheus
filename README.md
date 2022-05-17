@@ -17,3 +17,5 @@ This project is made with a responsive layout, so all the elements are displayed
 **GitHub**
 
 - [Link to the project on GitHub](https://github.com/seeleywill/se_project_aroundtheus)
+
+  - [Link to the project on GitHub Pages](https://seeleywill.github.io/se_project_aroundtheus/)
