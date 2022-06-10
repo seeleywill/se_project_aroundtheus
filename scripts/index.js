@@ -53,7 +53,9 @@ const initialCards = [
     link: "https://code.s3.yandex.net/web-code/lago.jpg",
   },
 ];
+
 const cardsContainer = document.querySelector(".gallery__cards-container");
+
 for (let i = 0; i < initialCards.length; i++) {
   const card = document.querySelector("#card-template").content.cloneNode(true);
   const cardImage = card.querySelector(".card__image");
