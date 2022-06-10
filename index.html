@@ -70,112 +70,30 @@
         </section>
         <section class="gallery">
           <div class="gallery__cards">
-            <div class="card">
-              <img
-                class="card__image"
-                src="./images/yosemite-valley.jpg"
-                alt="Photo of Yosemite Valley"
-              />
-              <div class="card__label">
-                <h2 class="card__text">Yosemite Valley</h2>
-                <button type="button" class="card__button" aria-label="Like">
-                  <img
-                    class="card__heart"
-                    src="./images/Group.svg"
-                    alt="Heart icon"
-                  />
-                </button>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card__image"
-                src="./images/lake-louise.png"
-                alt="Photo of Lake Louise"
-              />
-              <div class="card__label">
-                <h2 class="card__text">Lake Louise</h2>
-                <button type="button" class="card__button" aria-label="Like">
-                  <img
-                    class="card__heart"
-                    src="./images/Group.svg"
-                    alt="Heart icon"
-                  />
-                </button>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card__image"
-                src="./images/bald-mountains.png"
-                alt="Photo of Bald Mountains"
-              />
-              <div class="card__label">
-                <h2 class="card__text">Bald Mountains</h2>
-                <button type="button" class="card__button" aria-label="Like">
-                  <img
-                    class="card__heart"
-                    src="./images/Group.svg"
-                    alt="Heart icon"
-                  />
-                </button>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card__image"
-                src="./images/latemar.png"
-                alt="Photo of Latemar"
-              />
-              <div class="card__label">
-                <h2 class="card__text">Latemar</h2>
-                <button type="button" class="card__button" aria-label="Like">
-                  <img
-                    class="card__heart"
-                    src="./images/Group.svg"
-                    alt="Heart icon"
-                  />
-                </button>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card__image"
-                src="./images/vanoise-national-park.png"
-                alt="Photo of Vanoise National Park"
-              />
-              <div class="card__label">
-                <h2 class="card__text">Vanoise National Park</h2>
-                <button type="button" class="card__button" aria-label="Like">
-                  <img
-                    class="card__heart"
-                    src="./images/Group.svg"
-                    alt="Heart icon"
-                  />
-                </button>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="card__image"
-                src="./images/lago-di-braies.png"
-                alt="Photo of Lago di Braies"
-              />
-              <div class="card__label">
-                <h2 class="card__text">Lago di Braies</h2>
-                <button type="button" class="card__button" aria-label="Like">
-                  <img
-                    class="card__heart"
-                    src="./images/Group.svg"
-                    alt="Heart icon"
-                  />
-                </button>
-              </div>
-            </div>
+            <ul>
+              <template id="card-template">
+                <div class="card">
+                  <img class="card__image" />
+                  <div class="card__label">
+                    <h2 class="card__text"></h2>
+                    <button
+                      type="button"
+                      class="card__button"
+                      aria-label="Like"
+                    >
+                      <img
+                        class="card__heart"
+                        src="./images/Group.svg"
+                        alt="Heart icon"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </template>
+            </ul>
           </div>
         </section>
       </main>
-
       <footer class="footer">
         <p class="footer__text">© 2022 Around The U.S.</p>
       </footer>

@@ -26,3 +26,39 @@ function handleFormSubmit(evt) {
 }
 
 form.addEventListener("submit", handleFormSubmit);
+
+const initialCards = [
+  {
+    name: "Yosemite Valley",
+    link: "https://code.s3.yandex.net/web-code/yosemite.jpg",
+  },
+  {
+    name: "Lake Louise",
+    link: "https://code.s3.yandex.net/web-code/lake-louise.jpg",
+  },
+  {
+    name: "Bald Mountains",
+    link: "https://code.s3.yandex.net/web-code/bald-mountains.jpg",
+  },
+  {
+    name: "Latemar",
+    link: "https://code.s3.yandex.net/web-code/latemar.jpg",
+  },
+  {
+    name: "Vanoise National Park",
+    link: "https://code.s3.yandex.net/web-code/vanoise.jpg",
+  },
+  {
+    name: "Lago di Braies",
+    link: "https://code.s3.yandex.net/web-code/lago.jpg",
+  },
+];
+
+for (let i = 0; i < initialCards.length; i++) {
+  const card = document.querySelector("#card-template").content.cloneNode(true);
+  const cardImage = card.querySelector(".card__image");
+  const cardText = card.querySelector(".card__text");
+  cardImage.src = initialCards.link;
+  cardImage.alt = initialCards.name;
+  cardText.textContent = initialCards.name;
+}
