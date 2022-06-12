@@ -6,12 +6,12 @@
   left: 0px;
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .modal_opened {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .modal__container {
@@ -27,9 +27,9 @@
 
 .modal__close-button {
   display: block;
-  position: absolute;
+  position: relative;
   top: -40px;
-  right: -40px;
+  right: -430px;
   width: 40px;
   height: 40px;
   background-color: transparent;
@@ -108,7 +108,7 @@
   .modal__close-button {
     width: 26px;
     height: 26px;
-    right: 0px;
+    right: -256px;
   }
 
   .modal__title {
