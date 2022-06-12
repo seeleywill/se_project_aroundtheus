@@ -9,10 +9,14 @@ const inputDescription = document.querySelector(
 );
 const form = document.querySelector(".modal__form");
 
-function toggleForm() {
+function openForm() {
   modal.classList.toggle("modal_opened");
   inputName.value = profileName.textContent;
   inputDescription.value = profileDescription.textContent;
+}
+
+function closeForm() {
+  modal.classList.toggle("modal_opened");
 }
 
 function handleFormSubmit(evt) {
@@ -61,6 +65,6 @@ for (let i = 0; i < initialCards.length; i++) {
   cardsContainer.prepend(card);
 }
 
-openFormButton.addEventListener("click", toggleForm);
-closeButton.addEventListener("click", toggleForm);
+openFormButton.addEventListener("click", openForm);
+closeButton.addEventListener("click", closeForm);
 form.addEventListener("submit", handleFormSubmit);
